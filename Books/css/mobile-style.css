@@ -49,9 +49,6 @@
     }
 }
 @media only screen and (max-width:320px){
-    .section-4 .card{
-    
-    }
     .section-4 .carousel-inner{
         margin-left: -100vmin;
     }
