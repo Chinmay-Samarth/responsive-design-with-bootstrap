@@ -307,3 +307,12 @@ footer .column i{
 footer .column i + i{
     padding: 0 0.5em;
 }
+/* sticky class */
+.stick{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.815);
+    z-index: 999;
+    transition: all 1.5s ease;
+}

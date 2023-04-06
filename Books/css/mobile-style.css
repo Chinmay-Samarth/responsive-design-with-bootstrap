@@ -32,6 +32,7 @@
     }
     .section-4 .corousel-item{
         padding-left: 0.6rem;
+        padding-right: 0.6rem;
     }
     .section-4 .team{
         display: flex;
@@ -39,7 +40,19 @@
         align-content: center;
 
     }
+    
+}
+
+@media only screen and (max-widht:425px){
+    footer .row .col-md-2{
+        margin-top: 8vmin;
+    }
+}
+@media only screen and (max-width:320px){
+    .section-4 .card{
+    
+    }
     .section-4 .carousel-inner{
-        width: 30rem;
+        margin-left: -100vmin;
     }
 }
