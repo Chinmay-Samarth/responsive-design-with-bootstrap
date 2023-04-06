@@ -101,6 +101,8 @@ header .container .col-md-7 button{
 
 .section-1{
     padding: 20vmin 0;
+    overflow-y: hidden;
+    margin: 2vmin;
 }
 .section-1 .row .col-md-6 .pray img{
     opacity: 0.8;
@@ -263,4 +265,45 @@ header .container .col-md-7 button{
 .section-4 .card{
     width: 22rem;
     margin-top: 10vmin;
+}
+.section-4 .card .card-text{
+    padding: 0.5em;
+}
+.section-4 .card .card-body > a{
+    font-size: 1.5em;
+}
+.section-4 .carousel-item{
+    padding-left: 3rem;
+}
+.border-radius{
+    border-radius: 340px;
+    width: 60%;
+}
+
+/* footer */
+
+footer{
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+footer span{
+    color:#ff512f;
+}
+footer input{
+    border: none !important;
+}
+footer input::placeholder{
+    color: white !important;
+}
+footer .input-group .input-group-text{
+    background: var(--bggradient);
+    border: none;
+    padding: 2vmin;
+}
+footer .column i{
+    color: #dd2476;
+}
+footer .column i + i{
+    padding: 0 0.5em;
 }
